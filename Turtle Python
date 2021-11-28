@@ -1,0 +1,49 @@
+turtle.pensize(5)
+t = turtle
+tfw = t.forward
+tc = t.circle
+tr = t.right
+tl = t.left
+tb = t.back
+y = t.sety
+x = t.setx
+tr(-45)
+tfw(50)
+tr(135)
+tfw(120)
+tb(120)
+tl(90)
+t.penup()
+tfw(70)
+t.pendown()
+t.pencolor("darkred")
+tc(-40, 90)
+tfw(45)
+tc(-40, 90)
+tc(-40, 90)
+tfw(45)
+tc(-40, 90)
+t.penup()
+tfw(70)
+t.pendown()
+t.pencolor("black")
+tc(-30, 180)
+tl(180)
+tc(-35, 200)
+tr(90)
+t.penup()
+tfw(140)
+tr(70)
+tfw(70)
+t.pendown()
+t.pencolor("darkred")
+tc(-35)
+t.penup()
+tr(90)
+tfw(35)
+tl(90)
+tfw(35)
+tr(90)
+t.pendown()
+tc(-100, 65, 40)
+
